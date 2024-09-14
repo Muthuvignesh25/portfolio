@@ -1,0 +1,35 @@
+.experience{
+    padding-top: 4em;
+    h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .timeline{
+        margin-top: 3em;
+    }
+
+}
+.ps{
+    background-color: aliceblue;
+    border-radius:10px;
+}
+.pp{
+    text-align: center;
+
+    width:45px;
+    height: 45px;
+    background-position: center;
+}
+@media screen and (max-width:500px){
+    .experience{
+        padding-top: 2em;
+        h2{
+            text-align: center;
+            font-size: 1.6em;
+        }
+        .timeline{
+            margin-top: 2em;
+            padding: 0.2em;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.footer{
+    margin-top: 3em;
+    background-color: #0E0B16;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em;
+    height: 2em;
+    text-align: center;
+    .font-awesome{
+        color:white;
+    }
+    .resume{
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        button{
+            text-align: center;
+            width:30%;
+            cursor: pointer;
+            padding:0.7em 0.2em;       
+            border-radius: 2px;
+            background-color:  #4f0d46;
+            color:white;
+            font-size: 0.7em;
+            font-weight: bold;
+            border: none;
+        }
+    }
+    .phone{
+        // padding: 0.3em;
+        margin: auto;
+        display: inline-block;
+    }
+    .mail{
+        margin: auto;
+        // padding: 0.3em;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width:730px){
+    .footer{
+        flex-wrap: wrap;
+        height: 5em;
+        font-size: 0.8em;
+    //     padding-top: 3em;
+    // padding-bottom: 3em;
+    }
+    .phone{
+        padding: 0em;
+        margin: auto;
+        display: inline-block;
+    }
+    .mail{
+        margin: auto;
+        padding: 0em;
+        display: inline-block;
+    }
+}
