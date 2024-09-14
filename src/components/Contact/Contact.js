@@ -16,7 +16,7 @@ function Contact(props) {
             <button>View Resume</button>
           </a>
         </div>
-        <div>
+        <div className="info">
           <div className="phone">{details.phone}</div>
           <div className="mail">{details.email}</div>
         </div>

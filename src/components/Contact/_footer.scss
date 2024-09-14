@@ -67,15 +67,20 @@
             border: none;
         }
     }
-    .phone{
-        padding: 0em;
-        margin: auto;
-        display: inline-block;
-    }
-    .mail{
-        margin: auto;
-        padding: 0em;
-        display: inline-block;
+    .info{
+        display: flex;
+        flex-direction: row;
+        flex
+        .phone{
+            padding: 0em;
+            margin: auto;
+            display: inline-block;
+        }
+        .mail{
+            margin: auto;
+            padding: 0em;
+            display: inline-block;
+        }
     }
 }
 }
